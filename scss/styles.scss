@@ -1,11 +1,22 @@
 $main-color: yellow;
+$full-height: 100vh;
 
 @mixin reset{
   margin: 0;
   padding: 0;
 }
-
-body{
+@mixin flex($direction){
+  display:flex;
+  flex-direction:$direction;
+}
+html,body.app{
+  height: $full-height;
+}
+body.app{
   @include reset;
   background-color: $main-color;
+  h1{
+    margin: 0;
+    padding: 10px;
+  }
 }

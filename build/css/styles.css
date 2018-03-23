@@ -1,1 +1,1 @@
-body{margin:0;padding:0;background-color:#ff0}
+body.app,html{height:100vh}body.app{margin:0;padding:0;background-color:#ff0}body.app h1{margin:0;padding:10px}

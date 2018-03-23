@@ -3,7 +3,9 @@ html
   head
     title To do List
     link(href='css/styles.css',rel='stylesheet')
-  body
+  body.app
     header
       h1 To Do
-      
+      #task-form
+        input(type='text',placeholder='add a new task')
+        button(type='submit') Add
